@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+.boxa {
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+}
+main {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 1440px;
+  background-color:  hsl(216, 12%, 8%);
+}
+.text {
+  /* margin: 10px; */
+}
+.text1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 10px;
+}
+.text2 {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+button {
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  display: block;
+  width: 100%;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  border: 0;
+  color: hsl(0, 0%, 100%);
+  margin: 10px 10px 0px 10px;
+}
+.boxa + .attribution {
+  margin: 30px;
+}
+.rate1 {
+  border: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(217, 12%, 63%);
+  /* margin-left: 30px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.rating {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+img{
+    background-color: hsl(0, 0%, 35%);
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    padding: 3px;
+}
